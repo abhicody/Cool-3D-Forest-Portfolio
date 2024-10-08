@@ -19,11 +19,15 @@ import {
   react,
   redux,
   sass,
-  snapgram,
   summiz,
   tailwindcss,
   threads,
   typescript,
+  snapgram,
+  logo,
+  healthcare,
+  banking,
+  wildoasis,
 } from "../assets/icons";
 
 export const skills = [
@@ -240,14 +244,65 @@ export const socialLinks = [
   },
 ];
 
+// export const projects = [
+//   {
+//     iconUrl: pricewise,
+//     theme: "btn-back-red",
+//     name: "Amazon Price Tracker",
+//     description:
+//       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+//     link: "https://github.com/adrianhajdin/pricewise",
+//   },
+//   {
+//     iconUrl: threads,
+//     theme: "btn-back-green",
+//     name: "Full Stack Threads Clone",
+//     description:
+//       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+//     link: "https://github.com/adrianhajdin/threads",
+//   },
+//   {
+//     iconUrl: car,
+//     theme: "btn-back-blue",
+//     name: "Car Finding App",
+//     description:
+//       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+//     link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+//   },
+//   {
+//     iconUrl: snapgram,
+//     theme: "btn-back-pink",
+//     name: "Full Stack Instagram Clone",
+//     description:
+//       "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+//     link: "https://github.com/adrianhajdin/social_media_app",
+//   },
+//   {
+//     iconUrl: estate,
+//     theme: "btn-back-black",
+//     name: "Real-Estate Application",
+//     description:
+//       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+//     link: "https://github.com/adrianhajdin/projects_realestate",
+//   },
+//   {
+//     iconUrl: summiz,
+//     theme: "btn-back-yellow",
+//     name: "AI Summarizer Application",
+//     description:
+//       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+//     link: "https://github.com/adrianhajdin/project_ai_summarizer",
+//   },
+// ];
+
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: logo,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Imaginify AI",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Build an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal. ",
+    link: "https://imaginify-ai-plum.vercel.app/",
   },
   {
     iconUrl: threads,
@@ -255,7 +310,7 @@ export const projects = [
     name: "Full Stack Threads Clone",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    link: "https://threads-working.vercel.app/sign-in",
   },
   {
     iconUrl: car,
@@ -263,30 +318,30 @@ export const projects = [
     name: "Car Finding App",
     description:
       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    link: "https://car-showcase-xi-teal.vercel.app/",
   },
   {
-    iconUrl: snapgram,
+    iconUrl: healthcare,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Healthcare",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.",
+    link: "https://healthcare-chi-vert.vercel.app/",
   },
   {
-    iconUrl: estate,
+    iconUrl: banking,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Banking",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+    link: "https://banking-ten-orcin.vercel.app/sign-in",
   },
   {
-    iconUrl: summiz,
+    iconUrl: wildoasis,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Wild Oasis-HotelBooking Application",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Wild Oasis-A Hotel Booking Application, Algarve is a serene retreat nestled in the mountains of Monchique, Portugal. This eco-friendly haven offers stunning mountain views, cozy accommodations, and a tranquil atmosphere perfect for relaxation. Guests can enjoy amenities such as free WiFi, private parking, and a sauna",
+    link: "https://github.com/abhicody",
   },
 ];
