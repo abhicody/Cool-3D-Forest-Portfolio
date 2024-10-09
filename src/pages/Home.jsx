@@ -104,12 +104,21 @@ const Home = () => {
         </Suspense>
       </Canvas>
 
-      <div className="absolute bottom-2 left-2">
+      {/* <div className="absolute bottom-2 left-2">
         <img
           src={!isPlayingMusic ? soundoff : soundon}
           alt="jukebox"
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className="w-10 h-10 cursor-pointer object-contain"
+        />
+      </div> */}
+
+      <div className="absolute bottom-10 left-2 sm:bottom-12 sm:left-4 md:bottom-14 md:left-6 lg:bottom-16 lg:left-8">
+        <img
+          src={!isPlayingMusic ? soundoff : soundon}
+          alt="jukebox"
+          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+          className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 cursor-pointer object-contain"
         />
       </div>
     </section>
