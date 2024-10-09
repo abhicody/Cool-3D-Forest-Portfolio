@@ -14,7 +14,7 @@ const Navbar = () => {
           className="w-18 h-18 object-contain mt-1 rounded-md"
         />
       </NavLink>
-      <nav className="flex text-lg gap-7 font-medium">
+      {/* <nav className="flex text-lg gap-7 font-medium">
         <NavLink
           to="/about"
           className={({ isActive }) =>
@@ -37,6 +37,41 @@ const Navbar = () => {
           to="/contact"
           className={({ isActive }) =>
             isActive ? "text-blue-600" : "text-black"
+          }
+        >
+          Contact
+        </NavLink>
+      </nav> */}
+
+      <nav className="flex text-lg gap-7 font-medium">
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? "text-blue-600 hover:text-blue-800"
+              : "text-black hover:text-red-600"
+          }
+        >
+          About
+        </NavLink>
+
+        <NavLink
+          to="/projects"
+          className={({ isActive }) =>
+            isActive
+              ? "text-blue-600 hover:text-blue-800"
+              : "text-black hover:text-red-600"
+          }
+        >
+          Projects
+        </NavLink>
+
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive
+              ? "text-blue-600 hover:text-blue-800"
+              : "text-black hover:text-red-600"
           }
         >
           Contact
