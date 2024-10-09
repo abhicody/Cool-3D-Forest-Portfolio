@@ -302,7 +302,7 @@ export const projects = [
     name: "Imaginify AI",
     description:
       "Build an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal. ",
-    link: "https://imaginify-ai-plum.vercel.app/",
+    link: "https://imaginiy-ai.vercel.app/",
   },
   {
     iconUrl: threads,
@@ -342,6 +342,6 @@ export const projects = [
     name: "Wild Oasis-HotelBooking Application",
     description:
       "Wild Oasis-A Hotel Booking Application, Algarve is a serene retreat nestled in the mountains of Monchique, Portugal. This eco-friendly haven offers stunning mountain views, cozy accommodations, and a tranquil atmosphere perfect for relaxation. Guests can enjoy amenities such as free WiFi, private parking, and a sauna",
-    link: "https://github.com/abhicody",
+    link: "https://the-wild-oasis-kohl-xi.vercel.app/",
   },
 ];
